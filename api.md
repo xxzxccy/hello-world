@@ -1,9 +1,10 @@
-##EHR BLL-API Design Documentation##
+##EHR BLL-API Design Documentation(1)##
 >*该文档是EHR业务逻辑层的API设计文档，欢迎大家阅读、讨论、修改。*
 
 ---
 ### [卫生机构领导] ###
 
+- 方法序号：wsjgld_01
 - 方法名称：List\<String\> getChildOrgName()
 - 方法描述：获取子机构名称
 
@@ -18,7 +19,134 @@
 | 返回值 | 数据类型 | 参数说明 |
 |:---:|:---:|:---:|
 |childOrgNameList|List\<String\>|子机构名称列表|
+---
+- 方法序号：wsjgld_02
+- 方法名称：List\<String\> getChildOrgName()
+- 方法描述：获取子机构名称
 
+**输入**
+
+| 请求参数 | 必选 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|:---:|
+|orgCode|true|String|该机构代码为父机构代码|
+	
+**输出**
+
+| 返回值 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|
+|childOrgNameList|List\<String\>|子机构名称列表|
+---
+- 方法序号：wsjgld_03
+- 方法名称：List\<String\> getChildOrgName()
+- 方法描述：获取子机构名称
+
+**输入**
+
+| 请求参数 | 必选 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|:---:|
+|orgCode|true|String|该机构代码为父机构代码|
+	
+**输出**
+
+| 返回值 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|
+|childOrgNameList|List\<String\>|子机构名称列表|
+---
+- 方法序号：wsjgld_04
+- 方法名称：List\<String\> getChildOrgName()
+- 方法描述：获取子机构名称
+
+**输入**
+
+| 请求参数 | 必选 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|:---:|
+|orgCode|true|String|该机构代码为父机构代码|
+	
+**输出**
+
+| 返回值 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|
+|childOrgNameList|List\<String\>|子机构名称列表|
+---
+- 方法序号：wsjgld_05
+- 方法名称：List\<String\> getChildOrgName()
+- 方法描述：获取子机构名称
+
+**输入**
+
+| 请求参数 | 必选 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|:---:|
+|orgCode|true|String|该机构代码为父机构代码|
+	
+**输出**
+
+| 返回值 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|
+|childOrgNameList|List\<String\>|子机构名称列表|
+---
+- 方法序号：wsjgld_06
+- 方法名称：List\<String\> getChildOrgName()
+- 方法描述：获取子机构名称
+
+**输入**
+
+| 请求参数 | 必选 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|:---:|
+|orgCode|true|String|该机构代码为父机构代码|
+	
+**输出**
+
+| 返回值 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|
+|childOrgNameList|List\<String\>|子机构名称列表|
+---
+- 方法序号：wsjgld_07
+- 方法名称：List\<String\> getChildOrgName()
+- 方法描述：获取子机构名称
+
+**输入**
+
+| 请求参数 | 必选 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|:---:|
+|orgCode|true|String|该机构代码为父机构代码|
+	
+**输出**
+
+| 返回值 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|
+|childOrgNameList|List\<String\>|子机构名称列表|
+---
+- 方法序号：wsjgld_08
+- 方法名称：List\<String\> getChildOrgName()
+- 方法描述：获取子机构名称
+
+**输入**
+
+| 请求参数 | 必选 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|:---:|
+|orgCode|true|String|该机构代码为父机构代码|
+	
+**输出**
+
+| 返回值 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|
+|childOrgNameList|List\<String\>|子机构名称列表|
+---
+- 方法序号：wsjgld_09
+- 方法名称：List\<String\> getChildOrgName()
+- 方法描述：获取子机构名称
+
+**输入**
+
+| 请求参数 | 必选 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|:---:|
+|orgCode|true|String|该机构代码为父机构代码|
+	
+**输出**
+
+| 返回值 | 数据类型 | 参数说明 |
+|:---:|:---:|:---:|
+|childOrgNameList|List\<String\>|子机构名称列表|
 ---
 
 
