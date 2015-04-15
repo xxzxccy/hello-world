@@ -37,9 +37,9 @@
 
 | 返回值 | 数据类型 | 参数说明 |
 |:---:|:---:|:---:|
-|archiveStatisticsInfo|Map\<string,T\>|**key->value:**</br>**orgName->string v1**，orgCode对应的机构名称</br> **population->int v2**，总人数</br> **filedCount->int v3**，建档数</br> **unfiledCount->int v4**，未建档数</br> **filedRate->float v5**，建档率|
+|archiveStatisticsInfo|Map\<string,T\>|**key->value:**<br/>**orgName->string v1**，orgCode对应的机构名称<br/> **population->int v2**，总人数<br/> **filedCount->int v3**，建档数<br/> **unfiledCount->int v4**，未建档数<br/> **filedRate->float v5**，建档率|
 
-**备注**</br>“上一级单位”是否保留，“应建档”是否保留，若保留，与“总人数”的关系。
+**备注**<br/>“上一级单位”是否保留，“应建档”是否保留，若保留，与“总人数”的关系。
 
 -------------------------------------------------------------------------------
 
@@ -57,9 +57,9 @@
 
 | 返回值 | 数据类型 | 参数说明 |
 |:---:|:---:|:---:|
-|psnList|Map\<string,T\>|**key->value:**</br>**psnID->string v1**，人员ID号，默认为身份证号</br> **psnName->string v2**，人员姓名</br> **sex->dict v3**，性别</br> **birth->date v4**，出生日期</br> **orgName->string v5**，所属机构名称</br> **archiveDate->date v6**，建档日期|
+|psnList|Map\<string,T\>|**key->value:**<br/>**psnID->string v1**，人员ID号，默认为身份证号<br/> **psnName->string v2**，人员姓名<br/> **sex->dict v3**，性别<br/> **birth->date v4**，出生日期<br/> **orgName->string v5**，所属机构名称<br/> **archiveDate->date v6**，建档日期|
 
-**备注**</br>没有身份证号的人员其psnID由系统统一编号；</br>dict类型需要自定义。
+**备注**<br/>没有身份证号的人员其psnID由系统统一编号；<br/>dict类型需要自定义。
 
 -------------------------------------------------------------------------------
 
@@ -78,9 +78,9 @@
 
 | 返回值 | 数据类型 | 参数说明 |
 |:---:|:---:|:---:|
-|archiveContent|Map\<string,T\>|**key->value:**</br>**psnBasicInfo->Map\<string,T\> v1**，个人基本信息</br> **outpatient->outpModel v2**，门诊模块</br>  **inpatient->inpMoel v3**，住院模块</br> **physicalExam->examModel v4**，体检模块|
+|archiveContent|Map\<string,T\>|**key->value:**<br/>**psnBasicInfo->Map\<string,T\> v1**，个人基本信息<br/> **outpatient->outpModel v2**，门诊模块<br/>  **inpatient->inpMoel v3**，住院模块<br/> **physicalExam->examModel v4**，体检模块|
 
-**备注**</br>这个接口函数还没有设计好，需要讨论商定。
+**备注**<br/>这个接口函数还没有设计好，需要讨论商定。
 
 -------------------------------------------------------------------------------
 
